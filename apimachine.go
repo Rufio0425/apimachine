@@ -1,11 +1,12 @@
 package apimachine
 
 import (
-        "bytes"
-        "encoding/json"
-        "errors"
-        "net/http"
-        "time"
+	"bytes"
+	"encoding/json"
+	"errors"
+	"net/http"
+	"time"
 )
 
-const baseURL = "https://api.github.com"
+const skynetURL = "https://api.github.com"
+
